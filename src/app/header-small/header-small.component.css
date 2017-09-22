@@ -54,3 +54,6 @@ button:active{
     width: 100px;
     margin-bottom: 3px;
 }
+#nav-list button:active{
+    outline: none;
+}

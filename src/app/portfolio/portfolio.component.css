@@ -39,7 +39,9 @@
     border: thin solid lightgray;
 }
 p{
-    box-shadow: 0 6px 35px 15px lightgray, 0 0 50px 30px lightgray inset;
+    box-shadow: 0 6px 35px 15px lightgray;
+    padding: 5px;
+    background-color: lightgray;
 }
 @media screen and (max-width: 575px){
     .link-words{
