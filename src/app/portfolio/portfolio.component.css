@@ -39,9 +39,9 @@
     border: thin solid lightgray;
 }
 p{
-    box-shadow: 0 6px 35px 15px lightgray;
+    
     padding: 5px;
-    background-color: lightgray;
+    
 }
 @media screen and (max-width: 575px){
     .link-words{
@@ -73,9 +73,10 @@ p{
     background-color: #99aabb;
 }
 #two{
-    background-image: url("../../assets/imgs/french_beer.jpg");
+    background-image: url("../../assets/imgs/lulu-portfolio.jpg");
     
     background-repeat: no-repeat;
+    background-position: left center;
     background-color: #99aabb;
 }
 #three{
