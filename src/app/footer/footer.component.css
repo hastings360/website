@@ -12,13 +12,13 @@
 
 footer{
 	clear: both;
-	font-size: 25px;
+	font-size: 1.5em;
 	text-align: center;
 }
 
 footer p{
 	margin-top: 10px;
-	font-size: 12px;
+	font-size: 0.5em;
 	color: black;
 }
 /* main navigation links*/
@@ -26,7 +26,6 @@ footer p{
 	display: inline-block;
 	text-align: center;
 	width: 125px;
-	font-size: 25px;
 	color: #99badd;
 }
 .main-nav a:hover{
@@ -36,12 +35,11 @@ footer p{
 @media only screen and (max-width: 650px){
 	.main-nav a{
 		width: 85px;
-		font-size: 18px;
 	}
 }
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 451px){
 	.main-nav a{
 		width: 70px;
-		font-size: 15px;
+		font-size: 0.7em;
 	}
 }

@@ -1,10 +1,11 @@
 /*"About page" styling*/
 #about-pic{
 	background: #f9f2ec url('../../assets/imgs/lh.jpg') no-repeat;
-	background-position: center left;
+	background-position: top right;
 	min-height: 800px;
+	
 	padding-top: 100px;
-	border-radius: 0 200px 0 150px;
+	border-radius: 50px;
 }
 #about-info h1{
 	margin-top: 100px;
@@ -21,15 +22,14 @@
 				-1px 0px 0 white;
 }
 #about-info p{
-	font-size: 20px;
-	font-weight: bold;
+	font: 2em bold;
 }
 #about-info p:first-letter{
-	font-size: 30px;
+	font-size: 2.2em;
 }
 @media screen and (max-width: 1103px){
 	#about-info p{
-		font-size: 16px;
+		font-size: 1.5em;
 	}
 }
 @media screen and (max-width: 991px){
@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 416px){
 	#about-info p{
-		font-size: 15px;
+		font-size: 1.3em;
 	}
 }
 

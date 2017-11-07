@@ -24,7 +24,7 @@
 	display: inline-block;
 	text-align: center;
 	width: 125px;
-	font-size: 25px;
+	font-size: 1.5em;
 	color: #99badd;
 }
 
@@ -34,17 +34,13 @@
 	margin-top: 60px;
 }
 
-#my-job{
-	font-size: 25px;
-}
-
 #my-name{
-	font-size: 60px;
+	font-size: 3em
 }
 
 /*contact*/
 #my-contact-link{
-	font-size: 25px;
+	font-size: 1.7em;
 	border: solid;
 	border-color: #99badd;
 	border-radius: 15px 50px 15px 50px;
@@ -54,33 +50,24 @@
 @media only screen and (max-width: 650px){
 	.main-nav a{
 		width: 85px;
-		font-size: 18px;
-	}
-	#my-job{
-		font-size: 20px;
-	}
-	#my-name{
-		font-size: 50px;
-	}
-	#my-contact-link{
-		margin: 0 30% 0 30%;
 	}
 	.strap{
 		height: 280px;
+	}
+	#my-contact-link{
+		margin: 0 30% 0 30%;
 	}
 }
 @media only screen and (max-width: 450px){
 	.main-nav a{
 		width: 70px;
-		font-size: 15px;
+		font-size: 1em;
 	}
-	#my-job{
-		font-size: 17px;
-	}
-	#my-name{
-		font-size: 40px;
-	}
+	
 	#my-contact-link{
 		margin: 0 30% 0 30%;
+	}
+	#my-job{
+		font-size: 1.3em;
 	}
 }
