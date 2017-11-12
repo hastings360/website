@@ -50,6 +50,7 @@
 @media only screen and (max-width: 650px){
 	.main-nav a{
 		width: 85px;
+		font-size: 1.2em;
 	}
 	.strap{
 		height: 280px;

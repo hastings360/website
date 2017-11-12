@@ -23,7 +23,7 @@
     background: transparent;
     outline: none;
     font-size: 2em;
-    padding: 20px !important;
+    
     text-shadow: 1px 1px 0 black,
 				-1px -1px 0 black,
 				1px -1px 0 black,
@@ -39,29 +39,30 @@
     border: thin solid lightgray;
 }
 p{
-    
     padding: 5px;
-    
 }
 @media screen and (max-width: 575px){
     .link-words{
-        font-size: 1em;
+        font-size: 0.9em;
     }
     p{
         font-size: 0.8em;
     }
 }
+.btn{
+    white-space: pre-wrap;
+}
 .circle-btn{
     border-radius: 100%;
-    padding: 25px 2px 25px 2px;
+    padding: 5% 2%;
 }
 .square-btn{
     border-radius: 0;
-    padding: 25px 2px 25px 2px;
+    padding: 5% 2%;
 }
 .semi-btn{
     border-radius: 0 0 100% 100%;
-    padding: 25px 2px 25px 2px;
+    padding: 5% 2%;
 }
 .circle{
     border-radius: 100%;
