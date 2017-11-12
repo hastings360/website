@@ -61,7 +61,7 @@
 @media only screen and (max-width: 450px){
 	.main-nav a{
 		width: 70px;
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 	
 	#my-contact-link{
