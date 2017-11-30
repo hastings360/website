@@ -50,6 +50,7 @@
 @media only screen and (max-width: 650px){
 	.main-nav a{
 		width: 85px;
+		font-size: 1.2em;
 	}
 	.strap{
 		height: 280px;
@@ -60,14 +61,18 @@
 }
 @media only screen and (max-width: 450px){
 	.main-nav a{
-		width: 70px;
+		width: 60px;
 		font-size: 1em;
 	}
 	
 	#my-contact-link{
 		margin: 0 30% 0 30%;
+		font-size: 1.3em;
 	}
 	#my-job{
-		font-size: 1.3em;
+		font-size: 1.1em;
+	}
+	#my-name{
+		font-size: 2em;
 	}
 }
