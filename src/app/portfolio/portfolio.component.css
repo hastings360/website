@@ -72,21 +72,19 @@ p{
 }
 #one{
     background-image: url("../../assets/imgs/curacao_beach.jpg");
-    
     background-repeat: no-repeat;
     background-color: #99aabb;
 }
 #two{
     background-image: url("../../assets/imgs/lulu-portfolio.jpg");
-    
     background-repeat: no-repeat;
     background-position: left center;
     background-color: #99aabb;
 }
 #three{
     background-image: url("../../assets/imgs/store-front.jpg");
-    background-size: auto;
     background-repeat: no-repeat;
+    background-position: center;
     background-color: #99aabb;
 }
 /*#four{
