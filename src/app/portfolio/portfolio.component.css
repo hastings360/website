@@ -84,12 +84,12 @@ p{
     background-color: #99aabb;
 }
 #three{
-    background-image: url("../../assets/imgs/corn_island_boat.jpg");
+    background-image: url("../../assets/imgs/store-front.jpg");
     background-size: auto;
     background-repeat: no-repeat;
     background-color: #99aabb;
 }
-#four{
+/*#four{
     background-image: url("../../assets/imgs/kirkenes_city_sign.jpg");
     background-size: auto;
     background-repeat: no-repeat;
@@ -124,4 +124,4 @@ p{
     background-size: auto;
     background-repeat: no-repeat;
     background-color: #99aabb;
-}
+}*/
