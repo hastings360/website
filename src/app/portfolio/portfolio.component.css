@@ -1,0 +1,61 @@
+.portfolio-container{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.item{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.item-link:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+img{
+    box-shadow: 0 0 30px 15px #d3d3d3;
+}
+img:hover{
+    border: solid 1px white;
+}
+.half-circle{
+    border-radius: 0 0 50% 50%;
+}
+h2{
+    color: white;
+    text-shadow: 
+        1px 1px 0 #000, 
+        -1px -1px 0 #000, 
+        1px -1px 0 #000, 
+        -1px 1px 0 #000, 
+        0 1px 0 #000, 
+        1px 0 0 #000, 
+        0 -1px 0 #000, 
+        -1px 0 0 #000;
+    text-align: center;
+    margin-top: -4em;
+    margin-bottom: 4em;
+}
+p{
+    font-size: 1.3em;
+}
+@media screen and (max-width: 766px){
+    h2{
+        font-size: 1.7em;
+    }
+    .item{
+        min-height: 360px;
+    }
+
+}
+@media screen and (max-width: 566px){
+    h2{
+        font-size: 1.3em;
+        margin-top: -3.7em;
+        margin-bottom: 3.7em;
+    }
+    p{
+        font-size: 1em;
+    }
+    .item{
+        min-height: 300px;
+    }
+}

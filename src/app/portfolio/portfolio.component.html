@@ -1,4 +1,14 @@
 <title>Portfolio</title>
 <app-header-small></app-header-small>
-<section class='container'>
+<section class='container portfolio-container'>
+    <div class="row">
+        <div class="item col-md-4 col-xs-6" *ngFor="let item of items">
+            <a href="{{item.link}}" class="item-link">
+                <img class="{{item.shapeClass}} img-responsive" src="{{item.imageUrl}}" alt="{{item.name}}" />
+                <h2>{{item.name}}</h2>
+            </a>
+            <p>{{item.description}}</p>
+        </div>
+    </div>
+</section>
   
