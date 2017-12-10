@@ -15,7 +15,7 @@ img{
     box-shadow: 0 0 30px 15px #d3d3d3;
 }
 img:hover{
-    border: solid 1px white;
+    border: solid 1px white inset;
 }
 .half-circle{
     border-radius: 0 0 50% 50%;
