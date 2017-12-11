@@ -1,28 +1,14 @@
 <title>Portfolio</title>
 <app-header-small></app-header-small>
-<section class='clearfix'>
-  <div class='items col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1'>
-      <div class='col-md-4 col-sm-6 col-xs-6'>
-        <div class='item'><a id="one" class="circle" href='/relax-workspace'><button type="button" class='circle-btn link-words btn'>Relaxing<br> Workspace</button></a></div>
-        <p>This is basically just a background wallpaper screen for a desktop or laptop.  It has a jQuery checklist, a pure JavaScript calculator using Math.JS, and pandora.</p>
-      </div>
-      <div class='col-md-4 col-sm-6 col-xs-6'>
-        <div class='item'><a id="two" href='http://lulus-recipes.be/welcome'><button type="button" class='square-btn link-words btn'>Lulu's Recipes</button></a></div>
-        <p>An Angular.JS app for recipe sharing named after my aunt Lulu!!.  This uses the MEAN stack with a NGINX web server hosted on Red Hat Linux in the AWS cloud.</p>
-      </div>
-      <div class='col-md-4 col-sm-6 col-xs-6'>
-          <div class='item'><a id="three" class="semi" href='http://store-front.gq'><button type="button" class='semi-btn link-words btn'>Small Business</button></a></div>
-          <p>A single page site for any small business that needs a web presence.  This can be adapted to show specific details and products without incurring alot of technical
-            overhead and costs.  This is a very simple and medium responsive MEAN stack implentation so it can be viewed from any device.
-          </p>
-      </div>
-      
-      <!--
-      <div class='col-md-4 col-sm-6 col-xs-6 item'><a id="four" class="semi" href=''><button type="button" class='semi-btn link-words btn'>A</button></a></div>
-      <div class='col-md-4 col-sm-6 col-xs-6 item'><a id="five" class="circle" href=''><button type="button" class='circle-btn link-words btn'>A</button></a></div>
-      <div class='col-md-4 col-sm-6 col-xs-6 item'><a id="six" href=''><button type="button" class='square-btn link-words btn'>A</button></a></div>
-      <div class='col-md-4 col-sm-6 col-xs-6 item'><a id="seven" href=''><button type="button" class='square-btn link-words btn'>A</button></a></div>
-      <div class='col-md-4 col-sm-6 col-xs-6 item'><a id="eight" class="semi" href=''><button type="button" class='semi-btn link-words btn'>A</button></a></div>
-      <div class='col-md-4 col-sm-6 col-xs-6 item'><a id="nine" class="circle" href=''><button type="button" class='circle-btn link-words btn'>A</button></a></div>3-->
-  </div>
+<section class='container portfolio-container'>
+    <div class="row">
+        <div class="item col-md-4 col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2" *ngFor="let item of items">
+            <a href="{{item.link}}" class="item-link">
+                <img class="{{item.shapeClass}} img-responsive" src="{{item.imageUrl}}" alt="{{item.name}}" />
+                <h2>{{item.name}}</h2>
+            </a>
+            <p>{{item.description}}</p>
+        </div>
+    </div>
 </section>
+  

@@ -46,9 +46,7 @@ export class HomeComponent implements OnInit {
       case "#5":
         $('#5').toggleClass('desc-trans');
         break;
-      case "#6":
-        $('#6').toggleClass('desc-trans');
-        break;
+      
       case "#7":
         $('#7').toggleClass('desc-trans');
         break;
