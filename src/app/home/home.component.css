@@ -42,6 +42,9 @@ iframe{
         padding: 2px;
     }
 }
+.left-home{
+    background: url("../../assets/imgs/lightbulb.png") no-repeat center;
+}
 #description-container{
     max-width: 300px;
     margin: 0 auto;
