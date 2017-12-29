@@ -53,6 +53,7 @@ button:active{
 #nav-list button{
     width: 100px;
     margin-bottom: 3px;
+    padding: 2px;
 }
 #nav-list button:active{
     outline: none;

@@ -29,7 +29,7 @@
 }
 @media screen and (max-width: 1103px){
 	#about-info p{
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 }
 @media screen and (max-width: 991px){
@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 416px){
 	#about-info p{
-		font-size: 1.3em;
+		font-size: 1em;
 	}
 }
 
