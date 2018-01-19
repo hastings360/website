@@ -32,7 +32,7 @@ export class PortfolioComponent implements OnInit {
         name: 'Relaxing Workspace',
         imageUrl: '../../assets/imgs/curacao_beach.jpg',
         // tslint:disable-next-line:max-line-length
-        description: 'This is basically just a background wallpaper screen for a desktop or laptop. It has a jQuery checklist, a pure JavaScript calculator using Math.JS, and pandora.',
+        description: 'This is basically just a background wallpaper screen for a desktop or laptop. It has a jQuery checklist, a pure JavaScript calculator using Math.JS, and links for pandora and spotify for ease.',
         shapeClass: 'half-circle',
         link: '/relax-workspace'
       }

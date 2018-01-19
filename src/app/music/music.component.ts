@@ -10,10 +10,6 @@ export class MusicComponent implements AfterViewInit {
 
   constructor() { }
 
-  ngAfterViewInit() {
-    $('.music').click(function(){
-      $('#pop-iframe').toggleClass('hide');
-    })
-  }
+  ngAfterViewInit() {}
 
 }

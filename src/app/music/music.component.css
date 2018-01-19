@@ -8,14 +8,11 @@
 .music p{
     text-align: right;
     color: white;
-    font-size: 20px;
+    font-size: 24px;
 }
 .music p:hover{
     color: red;
 }
-#pop-iframe{
-    width: 688px;
-    height: 500px;
-    resize: both;
-    overflow: auto;
+.music a:hover{
+    text-decoration: none;
 }
