@@ -1,0 +1,13 @@
+h2{
+    text-align: center;
+}
+.jumbotron{
+    background: #ffa500 url("./pics/test-head-pic.jpg") center/cover no-repeat;
+    height: 600px;
+    border-radius: 0;
+}
+.jumbotron2{
+    background: #ffa500 url("./pics/test-head-pic-cartoon.jpg") center/cover no-repeat;
+    height: 600px;
+    border-radius: 0;
+}

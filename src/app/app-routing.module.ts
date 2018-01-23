@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ChecklistComponent } from './checklist/checklist.component';
-import { CalculatorComponent } from './calculator/calculator.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { RelaxWorkspaceComponent } from './relax-workspace/relax-workspace.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { NonnaPicciComponent } from './nonna-picci/nonna-picci.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home'},
@@ -16,8 +15,7 @@ const routes: Routes = [
   { path: 'portfolio', component: PortfolioComponent, data: {title: 'Portfolio'}},
   { path: 'about', component: AboutComponent, data: {title: 'About'}},
   { path: 'relax-workspace', component: RelaxWorkspaceComponent, data: {title: 'Relax and Work'}},
-  { path: 'calculator', component: CalculatorComponent },
-  { path: 'checklist', component: ChecklistComponent }
+  { path: 'nonna-picci', component: NonnaPicciComponent, data: {title: 'Nonna Picci'}},
 ];
 
 @NgModule({
