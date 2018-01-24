@@ -1,35 +1,62 @@
 h2{
     text-align: center;
 }
-.jumbotron{
+.head1{
     background: #c07b03;
     height: 600px;
     border-radius: 0;
     position: relative;
 }
-.jumbotron2{
+.head2{
     background: #ffa500 url("./pics/test-head-pic-cartoon.jpg") center/cover no-repeat;
     height: 600px;
     border-radius: 0;
-    padding: 1em;
+    position: relative;
 }
-.home-page-buttons{
+.head3{
+    background: #ffa500 url("./pics/square-pizza.png") right/cover no-repeat;
+    height: 600px;
+    border-radius: 0;
+    position: relative;
+}
+.buttons{
     height: 12em;
     width: 12em;
     border-radius: 100%;
     outline: none;
     background: transparent;
-    animation: pulse 3s infinite;
     font-size: 1.2em;
 }
-.home-page-buttons:hover{
+.buttons:hover{
     animation: none;
     cursor: pointer;
 }
+.buttons:active{
+    border-width: 0.4em;
+}
+.home-page-button-specials{
+    animation: pulse 3s infinite;
+}
+.home-page-button-upcoming-events{
+    animation: border 1.5s infinite;
+}
+
+.home-page-button-host-party{
+    border: none;
+    animation: inset 1.5s infinite;
+}
+.home-page-button-host-party:active{
+    border: solid 0.4em #ffffff;
+    box-shadow: 0 0 5em 2em #ffffff inset;    
+}
+
+.home-page-button-signature-dishes{
+    animation: radius 3s infinite;
+}
+
 @keyframes pulse {
     0% {
         box-shadow: 0 0 10px 5px #ffffff;
-        
     }
     30% {
         box-shadow: 0 0 15px 10px #ffffff;
@@ -40,4 +67,104 @@ h2{
     100% {
         box-shadow: 0 0 25px 20px #ffffff;
     }
+}
+@keyframes border {
+    0% {
+        border: solid 5px #ffffff;
+        
+    }
+    25% {
+        border: solid 10px #ffffff;
+    }
+    50% {
+        border: solid 15px #ffffff;
+    }
+    75% {
+        border: solid 10px #ffffff;
+    }
+    100% {
+        border: solid 5px #ffffff;
+    }
+}
+@keyframes inset {
+    0% {
+        box-shadow: 0 0 10px 5px #ffffff inset;
+    }
+    30% {
+        box-shadow: 0 0 15px 10px #ffffff inset;
+    }
+    60% {
+        box-shadow: 0 0 20px 15px #ffffff inset;
+    }
+    100% {
+        box-shadow: 0 0 25px 20px #ffffff inset;
+    }
+}
+@keyframes radius {
+    0% {
+        height: 12em;
+        width: 12em;
+    }
+    25% {
+        height: 12.5em;
+        width: 12.5em;
+    }
+    50% {
+        height: 13em;
+        width: 13em;
+    }
+    75% {
+        height: 12.5em;
+        width: 12.5em;
+    }
+    100% {
+        height: 12em;
+        width: 12em;
+    }
+}
+
+/*buttons2*/
+.buttons2{
+    display: block;
+    background-color: #439f3980;
+    height: 6em;
+    width: 10em;
+    margin-top: 2em;
+    font-size: 1.2em;
+}
+.buttons2:hover{
+    background-color: #439f39;
+    color: white;
+}
+@media screen and (max-width: 768px){
+    .buttons{
+        display:none;
+    }
+    .buttons2{
+        display: none;
+    }
+    .head2{
+        background-position: right;
+    }
+}
+@media screen and (max-width: 1000px){
+    .head1 h1{
+        font-size: 4em !important;
+    }
+    .head1 p{
+        font-size: 2em !important;
+    }
+    .head3 h1{
+        font-size: 4em !important;
+        margin-top: 170px;
+    }
+    .head3 p{
+        font-size: 2em !important;
+    }
+}
+
+/*buttons-pepperoni*/
+.buttons-pepperoni{
+    background-color: #5a0c0c;
+    color: white;
 }
