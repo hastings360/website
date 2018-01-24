@@ -8,13 +8,13 @@ h2{
     position: relative;
 }
 .head2{
-    background: #ffa500 url("./pics/test-head-pic-cartoon.jpg") center/cover no-repeat;
+    background: #ffa500 url("../../assets/nonna-pics/test-head-pic-cartoon.jpg") center/cover no-repeat;
     height: 600px;
     border-radius: 0;
     position: relative;
 }
 .head3{
-    background: #ffa500 url("./pics/square-pizza.png") right/cover no-repeat;
+    background: #ffa500 url("../../assets/nonna-pics/square-pizza.png") right/cover no-repeat;
     height: 600px;
     border-radius: 0;
     position: relative;
