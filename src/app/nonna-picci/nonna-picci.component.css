@@ -137,6 +137,11 @@ h2{
     background-color: #439f39;
     color: white;
 }
+@media screen and (max-width: 595px){
+    #about-pic{
+        display:none;
+    }
+}
 @media screen and (max-width: 768px){
     .buttons{
         display:none;
