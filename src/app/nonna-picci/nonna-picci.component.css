@@ -18,6 +18,7 @@ h2{
     height: 600px;
     border-radius: 0;
     position: relative;
+    margin-bottom: 0;
 }
 .buttons{
     height: 12em;
@@ -167,4 +168,10 @@ h2{
 .buttons-pepperoni{
     background-color: #5a0c0c;
     color: white;
+}
+
+/*instagrams*/
+.instagrams{
+    height: 200px;
+    border: solid 1px black;
 }
