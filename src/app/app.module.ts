@@ -16,7 +16,6 @@ import { RelaxWorkspaceComponent } from './relax-workspace/relax-workspace.compo
 import { CalculatorComponent } from './calculator/calculator.component';
 import { ChecklistComponent } from './checklist/checklist.component';
 import { MusicComponent } from './music/music.component';
-import { NonnaPicciComponent } from './nonna-picci/nonna-picci.component';
 
 @NgModule({
   declarations: [
@@ -31,8 +30,7 @@ import { NonnaPicciComponent } from './nonna-picci/nonna-picci.component';
     RelaxWorkspaceComponent,
     CalculatorComponent,
     ChecklistComponent,
-    MusicComponent,
-    NonnaPicciComponent
+    MusicComponent
   ],
   imports: [
     BrowserModule,
