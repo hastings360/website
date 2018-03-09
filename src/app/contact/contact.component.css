@@ -1,4 +1,8 @@
 /*Need a background pic for page and possibly one for message*/
+h1{
+    color: #99badd;
+    font-weight: bold;
+}
 #contact-message{
     font-size: 20px;
     border: thin solid black;

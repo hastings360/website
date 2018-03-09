@@ -1,6 +1,8 @@
 <title>Portfolio</title>
 <app-header-small></app-header-small>
+
 <section class='container portfolio-container'>
+    <h1>Portfolio</h1>
     <div class="row">
         <div class="item col-md-4 col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2" *ngFor="let item of items">
             <a href="{{item.link}}" class="item-link">
@@ -8,6 +10,13 @@
                 <h2>{{item.name}}</h2>
             </a>
             <p>{{item.description}}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="cms-help col-xs-12">
+            <h3>Need help with Wordpress or another CMS?  I can get you up and running.</h3>
+            <h4>Check out some of my past work:</h4>
+            <a href="https://www.nonnapicci.com/" target="_blank" alt="Nonna Picci">Nonna Picci</a>
         </div>
     </div>
 </section>

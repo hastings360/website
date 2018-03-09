@@ -2,6 +2,11 @@
     margin-top: 100px;
     margin-bottom: 200px;
 }
+h1{
+    margin-bottom: 1em;
+    color: #99badd;
+    font-weight: bold;
+}
 .item{
     padding-left: 2em;
     padding-right: 2em;
@@ -49,6 +54,23 @@ h2{
 p{
     font-size: 1.3em;
     min-height: 8em;
+}
+.cms-help h3{
+    background-color: #99badd;
+    text-align: center;
+    padding: 1em;
+}
+.cms-help a{
+    font-size: 2em;
+    color: #99badd;
+    background-color: #dfdbdb;
+    padding: 0.2em;
+    border-radius: 5px;
+}
+.cms-help a:hover{
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #000000;
 }
 @media screen and (max-width: 575px){
     h2{
