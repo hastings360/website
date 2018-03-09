@@ -10,12 +10,22 @@
 .item-link:hover{
     text-decoration: none;
     cursor: pointer;
+} 
+.item-link:hover h2{
+    text-shadow: 3px 3px 0 #99badd, 
+                -3px -3px 0 #99badd, 
+                3px -3px 0 #99badd, 
+                -3px 3px 0 #99badd, 
+                0 3px 0 #99badd, 
+                3px 0 0 #99badd, 
+                0 -3px 0 #99badd, 
+                -3px 0 0 #99badd;
 }
 img{
     box-shadow: 0 0 30px 15px #d3d3d3;
 }
 img:hover{
-    box-shadow: 0 0 2px 1px red,0 0 30px 15px #d3d3d3;
+    box-shadow: 0 0 2px 1px #f44242,0 0 30px 15px #d3d3d3;
     
 }
 .half-circle{
