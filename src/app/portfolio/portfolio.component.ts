@@ -17,7 +17,7 @@ export class PortfolioComponent implements OnInit {
         // tslint:disable-next-line:max-line-length
         description: 'A single page website template for any small business that needs a web presence quickly and affordably.  This is Bootstrap 4 at work on top of Angular.JS',
         shapeClass: 'img-circle',
-        link: 'http://store-front.gq'
+        link: 'http://store-front.larry-hastings.com'
       },
       {
         // tslint:disable-next-line:quotemark
