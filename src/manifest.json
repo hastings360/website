@@ -1,0 +1,90 @@
+{
+    "short_name": "LH",
+    "name": "Larry Hastings",
+    "icons": [
+      {
+        "src": "./src/assets/favicons/favicon-16.png",
+        "type": "image/png",
+        "sizes": "16x16"
+      },
+      {
+        "src": "./src/assets/favicons/favicon-32.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "./src/assets/favicons/favicon-57.png",
+        "type": "image/png",
+        "sizes": "57x57"
+      },
+      {
+        "src": "./src/assets/favicons/favicon-60.png",
+        "type": "image/png",
+        "sizes": "60x60"
+      },
+      {
+        "src": "./src/assets/favicons/favicon-64.png",
+        "type": "image/png",
+        "sizes": "64x64"
+      },
+      {
+        "src": "./src/assets/favicons/favicon-70.png",
+        "type": "image/png",
+        "sizes": "70x70"
+      },
+      {
+        "src": "./src/assets/favicons/favicon-72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "./src/assets/favicons/favicon-76.png",
+        "type": "image/png",
+        "sizes": "76x76"
+      },
+      {
+        "src": "./src/assets/favicons/favicon-96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "./src/assets/favicons/favicon-114.png",
+        "type": "image/png",
+        "sizes": "114x114"
+      },
+      {
+        "src": "./src/assets/favicons/favicon-150.png",
+        "type": "image/png",
+        "sizes": "150x150"
+      },
+      {
+        "src": "./src/assets/favicons/favicon-152.png",
+        "type": "image/png",
+        "sizes": "152x152"
+      },
+      {
+        "src": "./src/assets/favicons/favicon-160.png",
+        "type": "image/png",
+        "sizes": "160x160"
+      },
+      {
+        "src": "./src/assets/favicons/favicon-180.png",
+        "type": "image/png",
+        "sizes": "180x180"
+      },
+      {
+        "src": "./src/assets/favicons/favicon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "./src/assets/favicons/favicon-310.png",
+        "type": "image/png",
+        "sizes": "310x310"
+      }
+    ],
+    "start_url": "./src/index.html",
+    "display": "fullscreen",
+    "background_color": "#f9f2ec",
+    "theme_color_": "#99badd"
+  }
