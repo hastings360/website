@@ -3,10 +3,10 @@ const router = express.Router();
 const nodemailer = require('nodemailer');
 let postData;
 
-/* GET api listing. */
+/* GET api listing.
 router.get('/', (req, res) => {
   res.send('api works');
-});
+});*/
 
 router.post('/contact-form', (req, res) =>{
   res.send('contact-form api works');

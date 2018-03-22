@@ -15,7 +15,7 @@ export class PortfolioComponent implements OnInit {
         name: 'Small Business',
         imageUrl: '../../assets/imgs/store-front.jpg',
         // tslint:disable-next-line:max-line-length
-        description: 'A single page website template for any small business that needs a web presence quickly and affordably.  This is Bootstrap 4 at work on top of Angular.JS',
+        description: 'A single page website template for any small business that needs a web presence quickly and affordably.  This is Bootstrap 4 at work on top of Angular.JS.  It could be expanded upon or left as is.',
         shapeClass: 'img-circle',
         link: 'http://store-front.larry-hastings.com'
       },
@@ -24,7 +24,7 @@ export class PortfolioComponent implements OnInit {
         name: "Lulu's Recipes",
         imageUrl: '../../assets/imgs/lulu-portfolio.jpg',
         // tslint:disable-next-line:max-line-length
-        description: 'An Angular.JS app for recipe sharing named after my aunt Lulu!!. This uses the MEAN stack with a NGINX web server hosted on Red Hat Linux in the AWS cloud.',
+        description: 'An Angular.JS app for recipe sharing named after my aunt Lulu!!. On the backend, this uses MongoDB, Express.JS, Node.JS, and a NGINX web server hosted on Red Hat Linux in the AWS cloud.',
         shapeClass: 'square',
         link: 'http://lulus-recipes.be'
       },
