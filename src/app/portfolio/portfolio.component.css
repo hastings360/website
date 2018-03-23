@@ -53,12 +53,12 @@ h2{
 }
 p{
     font-size: 1.3em;
-    min-height: 8em;
 }
-.cms-help h3{
+.cms-help{
     background-color: #99badd;
-    text-align: center;
-    padding: 1em;
+}
+.cms-help p{
+    font-size: 1em;
 }
 .cms-help a{
     font-size: 2em;
@@ -71,6 +71,15 @@ p{
     text-decoration: none;
     color: #000000;
     border: 1px solid #000000;
+}
+.upwork{
+    background-color: #38a0009c;
+    padding: 1em;
+}
+@media screen and (max-width: 1200px){
+    h2{
+        font-size: 1.9em;
+    }
 }
 @media screen and (max-width: 575px){
     h2{
