@@ -12,11 +12,6 @@ h1{
     padding: 20px;
     box-shadow: 6px 6px 5px #99badd;
 }
-@media screen and (max-width: 767px){
-    #contact-message{
-        font-size: 16px;
-    }
-}
 #contact-bg{
     clip-path: polygon(0 0, 100% 0, 100% 63%, 92% 70%, 70% 70%, 82% 91%, 57% 70%, 8% 70%, 0 63%);
     -moz-clip-path: polygon(0 0, 100% 0, 100% 63%, 92% 70%, 70% 70%, 82% 91%, 57% 70%, 8% 70%, 0 63%);
@@ -31,15 +26,8 @@ h1{
     height: 600px;
     z-index: -1;
 }
-@media screen and (max-width: 768px){
-    #contact-bg{
-        left: 50%;
-        width: 90%;
-        margin-left: -45%;
-    }
-}
 #contact-form{
-    margin-bottom: 250px;
+    margin-bottom: 180px;
     margin-top: 10px;
 }
 #contact-submit{
@@ -88,21 +76,6 @@ textarea{
 				0px -1px 0 white,
 				-1px 0px 0 white;
 }
-@media screen and (max-width: 991px){
-    .mail-message{
-        left: 10%;
-        top: 25%;
-        height: 500px;
-        width: 80%;
-        font-size: 22px;
-    }
-}
-@media screen and (max-width: 502px){
-    .mail-message{
-        font-size: 20px;
-        padding: 170px 50px;
-    }
-}
 .mail-message a{
     text-decoration: none;
     color: white;
@@ -126,4 +99,31 @@ textarea{
 				1px 0px 0 white,
 				0px -1px 0 white,
 				-1px 0px 0 white;
+}
+@media screen and (max-width: 991px){
+    .mail-message{
+        left: 10%;
+        top: 25%;
+        height: 500px;
+        width: 80%;
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 767px){
+    #contact-message{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 768px){
+    #contact-bg{
+        left: 50%;
+        width: 90%;
+        margin-left: -45%;
+    }
+}
+@media screen and (max-width: 502px){
+    .mail-message{
+        font-size: 20px;
+        padding: 170px 50px;
+    }
 }

@@ -1,6 +1,5 @@
 .portfolio-container{
     margin-top: 100px;
-    margin-bottom: 200px;
 }
 h1{
     margin-bottom: 1em;
@@ -91,9 +90,7 @@ p{
 }
 @media screen and (max-width: 400px){
     h2{
-        font-size: 1em;
+        font-size: 1.3em;
     }
-    p{
-        font-size: 0.8em;
-    }
+
 }
