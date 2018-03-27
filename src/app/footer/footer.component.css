@@ -27,6 +27,8 @@ footer p{
 	text-align: center;
 	width: 125px;
 	color: #99badd;
+	text-shadow: 1px 1px 0 #000000;
+				
 }
 .main-nav a:hover{
 	text-decoration: none;

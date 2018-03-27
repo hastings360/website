@@ -1,0 +1,7 @@
+#canvas-container{
+    text-align: center;
+    padding-top: 100px;
+}
+#canvas{
+    border: 1px dotted #000000;
+}
