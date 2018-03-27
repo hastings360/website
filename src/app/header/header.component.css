@@ -9,14 +9,6 @@
 	background-size: cover;
 	text-align: center;
 	color: #99badd;
-	text-shadow: 1px 1px 0 #3b3b3b,
-				-1px -1px 0 #3b3b3b,
-				1px -1px 0 #3b3b3b,
-				-1px 1px 0 #3b3b3b,
-				0px 1px 0 #3b3b3b,
-				1px 0px 0 #3b3b3b,
-				0px -1px 0 #3b3b3b,
-				-1px 0px 0 #3b3b3b;
 	border-radius: 0 !important;
 }
 .strap a{
