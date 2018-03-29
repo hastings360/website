@@ -6,7 +6,6 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { RelaxWorkspaceComponent } from './relax-workspace/relax-workspace.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-import { CanvasComponent } from './canvas/canvas.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home'},
@@ -14,8 +13,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent, data: {title: 'Contact'}},
   { path: 'portfolio', component: PortfolioComponent, data: {title: 'Portfolio'}},
   { path: 'about', component: AboutComponent, data: {title: 'About'}},
-  { path: 'relax-workspace', component: RelaxWorkspaceComponent, data: {title: 'Relax and Work'}},
-  { path: 'canvas', component: CanvasComponent, data: {title: 'Canvas'}}
+  { path: 'relax-workspace', component: RelaxWorkspaceComponent, data: {title: 'Relax and Work'}}
 ];
 
 @NgModule({
