@@ -27,6 +27,28 @@ iframe{
 .floating-words button:active{
     box-shadow: 0px 0px 20px #aaff6d inset;
 }
+
+#description-container{
+    max-width: 400px;
+    min-height: 184px;
+    margin: 0 auto;
+    background: url("../../assets/imgs/lightbulb.png") no-repeat center;
+    margin-top: -50px;
+    padding-top: 50px;
+}
+
+.description{
+    font-size: 0px;
+}
+.desc-trans{
+    transition: border 5s ease;
+    transition: font 2s ease;
+    font: 1.5em de-walpergens-pica;
+    border: thin solid #99badd;
+    border-radius: 30px;
+    padding: 10px 10px 10px 24px;
+}
+
 @media only screen and (max-width: 991px){
     .floating-words button{
         font-size: 1.2em;
@@ -41,26 +63,10 @@ iframe{
         margin: 5px 3px 5px 3px;
         padding: 2px;
     }
+    #description-container{
+        max-width: 300px;
+    }
+    .desc-trans{
+        font-size: 1em;
+    }
 }
-
-#description-container{
-    max-width: 300px;
-    min-height: 184px;
-    margin: 0 auto;
-    background: url("../../assets/imgs/lightbulb.png") no-repeat center;
-    margin-top: -50px;
-    padding-top: 50px;
-}
-
-.description{
-    font-size: 0px;
-}
-.desc-trans{
-    transition: border 5s ease;
-    transition: font 2s ease;
-    font: 1.1em de-walpergens-pica;
-    border: thin solid #99badd;
-    border-radius: 30px;
-    padding: 10px 10px 10px 24px;
-}
-
