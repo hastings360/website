@@ -72,24 +72,34 @@
         this.update = function(){
             
             let dist = getDistance(circle1.x,circle2.x,circle1.y,circle2.y);
-        
-            if(dist < circle1.radius + circle2.radius){
+
+            if(dist <= circle1.radius + circle2.radius){
                 if(circle1.color === "000000"){
                     circle1.color = "f49222";
-                }else{
-                    circle1.color = "000000";
-                }
-                if(circle2.color === "f49222"){
                     circle2.color = "000000";
                 }else{
+                    circle1.color = "000000";
                     circle2.color = "f49222";
                 }
             }
 
+            
+            
+            
+            
+            
             if(this.x + this.radius > innerWidth || this.x - this.radius <= 0 || dist < circle1.radius + circle2.radius){
-                this.dx = -this.dx;
+                if(circle1.dx < 0 && circle2.dx < 0 || circle1.dx > 0 && circle2.dx > 0){
+                    circle1.dx = -this.dx;
+                }else{
+                    this.dx = -this.dx;
+                }
             }else if(this.y + this.radius > innerHeight || this.y - this.radius <= 0 || dist < circle1.radius + circle2.radius){
-                this.dy = -this.dy;
+                if(circle1.dy < 0 && circle2.dy < 0 || circle1.dy > 0 && circle2.dy > 0){
+                    circle1.dy = -this.dy;
+                }else{
+                    this.dy = -this.dy;
+                }
             }
             
             this.x += this.dx;
