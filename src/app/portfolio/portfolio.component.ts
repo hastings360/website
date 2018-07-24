@@ -30,12 +30,12 @@ export class PortfolioComponent implements OnInit {
         imageUrl: '../../assets/imgs/lulu-portfolio.jpg',
         description: 'An Angular.JS app for recipe sharing named after my aunt Lulu!!. On the backend, this uses MongoDB, Express.JS, Node.JS, and a NGINX web server hosted on Red Hat Linux in the AWS cloud.',
         shapeClass: 'square',
-        link: 'http://lulus-recipes.be'
+        link: 'https://lulus-recipes.larry-hastings.com'
       },
       {
         name: 'Relaxing Workspace',
         imageUrl: '../../assets/imgs/curacao_beach.jpg',
-        description: 'This is basically just a background wallpaper screen for a desktop or laptop. It has a jQuery checklist, a pure JavaScript calculator using Math.JS, and links for pandora and spotify for ease.',
+        description: 'This is basically just a background wallpaper screen for a desktop or laptop. It has a jQuery checklist, a vanilla JavaScript calculator using Math.JS, and links for pandora and spotify for ease.',
         shapeClass: 'half-circle',
         link: '/relax-workspace'
       }
