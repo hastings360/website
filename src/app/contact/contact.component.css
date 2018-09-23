@@ -1,16 +1,10 @@
 /*Need a background pic for page and possibly one for message*/
-h1{
-    color: #99badd;
-    font-weight: bold;
-}
 #contact-message{
     font-size: 20px;
-    border: thin solid black;
     border-radius: 40px;
     margin-top: 100px;
     margin-bottom: 20px;
     padding: 20px;
-    box-shadow: 6px 6px 5px #99badd;
 }
 #contact-bg{
     clip-path: polygon(0 0, 100% 0, 100% 63%, 92% 70%, 70% 70%, 82% 91%, 57% 70%, 8% 70%, 0 63%);
