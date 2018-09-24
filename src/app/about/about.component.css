@@ -1,13 +1,14 @@
 /*"About page" styling*/
 #oregon-coast-bg{
 	background: #a3a3a3 url("../../assets/imgs/oregon-coast.jpeg") no-repeat center center;
-	height: 100vh;
+	height: auto;
+	padding-bottom: 10px;
 }
 #about-info{
 	background-color: #99baddb3;
 	padding: 10px;
 	border-radius: 10px;
-	margin-top: 15%;
+	margin-top: 85px;
 }
 
 #about-info img{
@@ -20,11 +21,7 @@
 
 @media screen and (max-width: 767px){
 	#oregon-coast-bg{
-		height: auto;
-		padding-bottom: 10px;
-	}
-	#about-info{
-		margin-top: 25%;
+		background-position: 1% 35%;
 	}
 	h1{
 		font-size: 1.7em;
@@ -34,9 +31,6 @@
 	}
 }
 @media screen and (max-width: 479px){
-	#about-info{
-		margin-top: 25%;
-	}
 	h1{
 		font-size: 1.5em;
 	}
