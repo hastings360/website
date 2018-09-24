@@ -8,6 +8,8 @@
 }
 #marketing-message p{
     font-size: 2em;
+    color: #fff;
+    text-shadow: 1px 1px 0 #000;
 }
 #marketing-message label{
     font-size: 1.7em;
@@ -25,13 +27,13 @@
 }
 #contact{
     font-size: 1.5em !important;
+    color: #fff;
 }
 #contact a{
     color: #00ad34;
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
-    text-shadow: none;
 }
 #contact a:hover{
     color: red;
@@ -106,7 +108,7 @@ p{
 }
 @media screen and (max-width: 767px){
     #new-heights-bg{
-        background-position: 73% 80% !important;
+        background-position: 73% 70% !important;
     }
     #marketing-message{
         margin-left: 5%;
