@@ -2,7 +2,8 @@
 #oregon-coast-bg{
 	background: #a3a3a3 url("../../assets/imgs/oregon-coast.jpeg") no-repeat center center;
 	height: auto;
-	padding-bottom: 10px;
+  padding-bottom: 10px;
+  min-height: 100vh;
 }
 #about-info{
 	background-color: #99baddb3;
