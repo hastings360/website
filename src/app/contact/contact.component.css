@@ -17,20 +17,12 @@ h1{
     clip-path: polygon(0 0, 100% 0, 100% 63%, 92% 70%, 70% 70%, 82% 91%, 57% 70%, 8% 70%, 0 63%);
     -moz-clip-path: polygon(0 0, 100% 0, 100% 63%, 92% 70%, 70% 70%, 82% 91%, 57% 70%, 8% 70%, 0 63%);
     border-radius: 10px 10px;
-    background-image: url("../../assets/imgs/oregon_waves.jpg");
-    background-position: top;
-    background-color: #99badd;
-    position: absolute;
-    left: 50%;
-    width: 50%;
-    margin-left: -25%;
-    height: 600px;
-    z-index: -1;
+    background: #99badd url("../../assets/imgs/oregon_waves.jpg") no-repeat top;
+    height: auto;
+    min-height: 650px;
+    padding: 40px;
 }
-#contact-form{
-    margin-bottom: 180px;
-    margin-top: 10px;
-}
+
 #contact-submit{
     background: none;
     border: 2px #99badd solid;
@@ -59,10 +51,10 @@ textarea{
 /*after-send actionable items*/
 .mail-message{
     position: absolute;
-    left: 25%;
-    top: 25%;
-    width: 50%;
-    height: 500px;
+    left: 10%;
+    top: 0;
+    width: 80%;
+    height: 70%;
     background-image: url("../../assets/imgs/oregon_waves.jpg");
     font-size: 30px;
     border-radius: 50%;
@@ -101,27 +93,13 @@ textarea{
 				0px -1px 0 white,
 				-1px 0px 0 white;
 }
-@media screen and (max-width: 991px){
-    .mail-message{
-        left: 10%;
-        top: 25%;
-        height: 500px;
-        width: 80%;
-        font-size: 22px;
-    }
-}
+
 @media screen and (max-width: 767px){
     #contact-message p{
         font-size: 16px;
     }
 }
-@media screen and (max-width: 768px){
-    #contact-bg{
-        left: 50%;
-        width: 90%;
-        margin-left: -45%;
-    }
-}
+
 @media screen and (max-width: 502px){
     .mail-message{
         font-size: 20px;
