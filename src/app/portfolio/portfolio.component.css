@@ -1,5 +1,5 @@
 #new-heights-bg{
-    background: #a3a3a3 url("../../assets/imgs/pigeon-atop-skyscraper.jpeg") no-repeat 80% 50%;
+    background: #a3a3a3 url("../../assets/imgs/pigeon-atop-skyscraper.jpeg") no-repeat 80% 80%;
 }
 #marketing-message{
     position: absolute;
@@ -17,14 +17,14 @@
 #marketing-message ul{
     list-style: none;
     font-size: 1.3em;
-    padding-left: 25px;
+    margin-left: 20px;
+    padding: 5px;
     background-color: #99badd92;
     width: 85%;
     border-radius: 10px;
 }
 #contact{
     font-size: 1.5em !important;
-    
 }
 #contact a{
     color: #00ad34;
@@ -104,18 +104,21 @@ p{
         font-size: 1.9em;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
+    #new-heights-bg{
+        background-position: 73% 80% !important;
+    }
     #marketing-message{
         margin-left: 5%;
     }
     #marketing-message p{
-        font-size: 1.5em;
+        font-size: 1.7em;
     }
     #marketing-message label{
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
     #marketing-message ul{
-        font-size: 1em;
+        font-size: 1.2em;
     }
     #contact{
         font-size: 1.2em !important;
