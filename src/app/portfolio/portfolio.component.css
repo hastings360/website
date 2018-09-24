@@ -1,5 +1,45 @@
-.portfolio-container{
-    margin-top: 100px;
+#new-heights-bg{
+    position: relative;
+    height: 80vh;
+    width: 100vw - 5px;
+    background: #a3a3a3 url("../../assets/imgs/pigeon-atop-skyscraper.jpeg") no-repeat 80% 50%;
+    background-size: cover;
+    min-height: 600px;
+}
+#marketing-message{
+    position: absolute;
+    top: 25%;
+    margin-left: 20%;
+}
+#marketing-message p{
+    font-size: 2em;
+}
+#marketing-message label{
+    font-size: 1.7em;
+    padding-left: 20px;
+    text-align: center;
+}
+#marketing-message ul{
+    list-style: none;
+    font-size: 1.3em;
+    padding-left: 25px;
+    background-color: #99badd92;
+    width: 85%;
+    border-radius: 10px;
+}
+#contact{
+    font-size: 1.5em !important;
+    
+}
+#contact a{
+    color: #00ad34;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: none;
+}
+#contact a:hover{
+    color: red;
 }
 h1{
     margin-bottom: 1em;
@@ -67,6 +107,23 @@ p{
 @media screen and (max-width: 1200px){
     h2{
         font-size: 1.9em;
+    }
+}
+@media screen and (max-width: 768px){
+    #marketing-message{
+        margin-left: 5%;
+    }
+    #marketing-message p{
+        font-size: 1.5em;
+    }
+    #marketing-message label{
+        font-size: 1.2em;
+    }
+    #marketing-message ul{
+        font-size: 1em;
+    }
+    #contact{
+        font-size: 1.2em !important;
     }
 }
 @media screen and (max-width: 575px){
