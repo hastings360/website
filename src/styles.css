@@ -15,8 +15,4 @@ h1{
 		background-size: cover;
 		min-height: 400px;
 }
-@media screen and (max-width: 767px){
-		.image-bg{
-			background-size: auto 100%;
-		}
-}
+
