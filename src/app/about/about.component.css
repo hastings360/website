@@ -1,57 +1,47 @@
 /*"About page" styling*/
-#about-pic{
-	background: #f9f2ec url('../../assets/imgs/lh.jpg') no-repeat;
-	background-position: top right;
-	min-height: 800px;	
-	padding-top: 100px;
-	border-radius: 50px;
-	border: 8px solid #99badd;
+#oregon-coast-bg{
+	background: #a3a3a3 url("../../assets/imgs/oregon-coast.jpeg") no-repeat center center;
+	height: 100vh;
 }
-h1{
-	color: #99badd;
-	margin-top: 100px;
-	text-align: center;
-	font-weight: bold;
+#about-info{
+	background-color: #99baddb3;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 15%;
 }
-p{
-	font: 2em bold;
+
+#about-info img{
+	float: left;
+	margin: 0 20px 20px 0;
 }
-p:first-letter{
-	font-size: 2.2em;
+#about-info p{
+	font-size: 1.5em;
 }
-@media screen and (max-width: 1103px){
-p{
+
+@media screen and (max-width: 767px){
+	#about-info{
+		margin-top: 25%;
+	}
+	h1{
+		font-size: 1.7em;
+	}
+	#about-info p{
 		font-size: 1.2em;
 	}
 }
-@media screen and (max-width: 991px){
-	h1{
-		text-shadow: 1px 1px 0 white,
-		-1px -1px 0 white,
-		1px -1px 0 white,
-		-1px 1px 0 white,
-		0px 1px 0 white,
-		1px 0px 0 white,
-		0px -1px 0 white,
-		-1px 0px 0 white;
-	}
+@media screen and (max-width: 479px){
 	#about-info{
-		background-color: rgb(60, 60, 60);
-    	background: rgba(60, 60, 60, 0.7);
-		border-radius: 0 200px 0 150px;
-		padding-top: 30px;
-		padding-bottom: 80px;
+		margin-top: 35%;
 	}
-	p{
-		color: white;
+	h1{
+		font-size: 1.5em;
 	}
-}
-
-@media screen and (max-width: 416px){
-	p{
+	#about-info p{
 		font-size: 1em;
 	}
 }
-
-
-
+@media screen and (max-width: 350px){
+	#about-info img{
+		float: none;
+	}
+}

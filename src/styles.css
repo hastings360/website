@@ -8,3 +8,10 @@ h1{
 	text-shadow: 1px 1px 0 #838383;
 	font-weight: bold;
 }
+.image-bg{
+		position: relative;
+		height: 80vh;
+		width: 100vw - 5px;
+		background-size: cover;
+		min-height: 600px;
+}
