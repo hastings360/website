@@ -21,6 +21,7 @@
 @media screen and (max-width: 767px){
 	#oregon-coast-bg{
 		height: auto;
+		padding-bottom: 10px;
 	}
 	#about-info{
 		margin-top: 25%;
