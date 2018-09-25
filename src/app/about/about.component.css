@@ -1,6 +1,6 @@
 /*"About page" styling*/
 #oregon-coast-bg{
-	background: #a3a3a3 url("../../assets/imgs/oregon-coast.jpeg") no-repeat center center;
+	background: #a3a3a3 url("../../assets/imgs/oregon-coast.jpg") no-repeat center center;
   min-height: 100vh;
   height: auto;
   padding-bottom: 10px;
@@ -41,7 +41,7 @@
 }
 @media screen and (max-width: 575px){
   #oregon-coast-bg{
-    background-image: url("../../assets/imgs/oregon-coast-mobile.jpeg");
+    background-image: url("../../assets/imgs/oregon-coast-mobile.jpg");
     background-position: bottom right;
   }
 }
