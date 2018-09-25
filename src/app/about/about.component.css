@@ -39,6 +39,12 @@
 		font-size: 1.2em;
 	}
 }
+@media screen and (max-width: 575px){
+  #oregon-coast-bg{
+    background-image: url("../../assets/imgs/oregon-coast-mobile.jpeg");
+    background-position: bottom right;
+  }
+}
 @media screen and (max-width: 479px){
 	h1{
 		font-size: 1.5em;
