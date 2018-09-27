@@ -1,71 +1,69 @@
 /*Blog styling*/
-.mark-row img{
-    border-radius: 20px;
+#mobile-view{
+    display: none;
 }
-.message{
-    height: 360px;
-    position: relative;
+.mark-row h2{
+    font: italic 3.5em cursive;
+    text-shadow: 1px 1px 0 #838383;
 }
-.message h2{
-    font-size: 5em;
+.single{
+    margin-bottom: 20px;
 }
-.top-left{
-    position: absolute;
-    top:0;
-    left: 0;
+.top{
+    text-align: left;
 }
-.bottom-right{
-    position: absolute;
-    bottom:0;
-    right: 0;
+.bottom{
+    text-align: right;
+    padding-top: 120px;
 }
 
-@media screen and (max-width: 1198px){
-    .message{
-        height: 295px;
-    }
-}
-@media screen and (max-width: 990px){
-    .message{
-        height: 221px;
-    }
-    .message h2{
+@media screen and (max-width: 1200px){
+    .mark-row h2{
         font-size: 3em;
     }
 }
-@media screen and (max-width: 766px){
-    .bottom-right{
-        top:0;
-        right:0;
-    }
-}
-@media screen and (max-width: 600px){
-    .message{
-        height: 170px;
-    }
-}
-@media screen and (max-width: 500px){
-    .message{
-        height: 135px;
-    }
-    .message h2{
+@media screen and (max-width: 991px){
+    .mark-row h2{
         font-size: 2em;
     }
 }
-@media screen and (max-width: 400px){
-    .message{
-        height: 100px;
+@media screen and (max-width: 767px){
+    #wide-view{
+        display: none;
+    }
+    #mobile-view{
+        display: block;
+    }
+    #mobile-view h2{
+        font-size: 3em;
+        padding-top: 10px;
+        padding-bottom: 5px;
     }
 }
-@media screen and (max-width: 300px){
-    .message{
-        height: 74px;
+.left{
+    background-color: #99badd;
+    padding-left: 20px;
+    border-radius: 0 50% 50% 0;
+    box-shadow: -3px 3px 1px #f4b642;
+}
+.right{
+    text-align: right;
+    background-color: #f4b642;
+    padding-right: 20px;
+    border-radius: 50% 0 0 50%;
+    box-shadow: 3px 3px 1px #99badd;
+}
+@media screen and (max-width: 350px){
+    #mobile-view h2{
+        font-size: 2em;
+    }
+    .left{
+        padding-left: 5px;
+    }
+    .right{
+        padding-right: 5px;
     }
 }
-
-
-
-
 
 /*iframe{
     width: 97%;
