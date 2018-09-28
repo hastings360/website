@@ -5,11 +5,10 @@ h2{
   text-align: center;
 }
 blockquote{
-  background-color: #99badd4b;
   font: italic 1.5em Georgia;
   border: none;
   border-radius: 5px;
-  box-shadow: 3px 3px 10px #f4b642;
+  box-shadow: 2px 2px 3px 3px #f4b642;
 }
 #mobile-view{
     display: none;
