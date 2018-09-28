@@ -9,7 +9,7 @@ blockquote{
   font: italic 1.5em Georgia;
   border: none;
   border-radius: 5px;
-  box-shadow: 1px 1px 1px #f4b642;
+  box-shadow: 2px 2px 10px #f4b642;
 }
 #mobile-view{
     display: none;
