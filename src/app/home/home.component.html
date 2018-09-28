@@ -1,25 +1,31 @@
 <title>Larry Hastings</title>
 <app-header></app-header>
 <div class="container" id="marketing">
-	<section id="wide-view">
+    <section class="row">
+      <div class="col-xs-12">
+        <blockquote>"A website or app should be a living, breathing interface where we not only build out a design with back-end data, but where we continually strive to improve the overall experience in both asthetics and functionality."<br><br>- Me
+        </blockquote>
+      </div>
+    </section>
+  <section id="wide-view">
 		<div class="row mark-row">
 			<div class="single col-sm-6">
 				<div class="col-sm-12">
 					<div class="col-md-8 col-sm-8">
-						<img class="img-responsive img-rounded" src="../../assets/imgs/paper-writing-utensils.jpg" alt="Paper and writing utensils" />
+						<img class="img-responsive img-rounded" src="../../assets/imgs/person-looking-at-building-plans.jpg" alt="Paper and writing utensils" />
 					</div>
 					<div class="col-md-4 col-sm-4">
-						<h2 class="top">Plan</h2>
+						<span class="top steps">Plan</span>
 					</div>
 				</div>
 			</div>
 			<div class="single col-sm-6">
 				<div class="col-sm-12">
 					<div class="col-md-4 col-sm-4">
-						<h2 class="bottom">Build</h2>
+						<span class="center steps">Build</span>
 					</div>
 					<div class="col-md-8 col-sm-8">
-						<img  class="img-responsive img-rounded img-right" src="../../assets/imgs/paper-writing-utensils.jpg" alt="Paper and writing utensils" />
+						<img  class="img-responsive img-circle img-right" src="../../assets/imgs/building-blocks-on-floor.jpg" alt="Paper and writing utensils" />
 					</div>
 				</div>
 			</div>
@@ -28,20 +34,20 @@
 			<div class="single col-sm-6">
 				<div class="col-sm-12">
 					<div class="col-md-8 col-sm-8">
-						<img class="img-responsive img-rounded" src="../../assets/imgs/paper-writing-utensils.jpg" alt="Paper and writing utensils" />
+						<img class="img-responsive img-rounded" src="../../assets/imgs/hands-sharpening-axe-on-grindstone.jpg" alt="Paper and writing utensils" />
 					</div>
 					<div class="col-md-4 col-sm-4">
-						<h2 class="top">Optimize</h2>
+						<span class="top steps">Optimize</span>
 					</div>
 				</div>
 			</div>
 			<div class="single col-sm-6">
 				<div class="col-sm-12">
 					<div class="col-md-4 col-sm-4">
-						<h2 class="bottom">Deploy</h2>
+						<span class="center steps">Deploy</span>
 					</div>
 					<div class="col-md-8 col-sm-8">
-						<img  class="img-responsive img-rounded img-right" src="../../assets/imgs/paper-writing-utensils.jpg" alt="Paper and writing utensils" />
+						<img  class="img-responsive img-circle img-right" src="../../assets/imgs/hands-holding-phone-by-airplane-window.jpg" alt="Paper and writing utensils" />
 					</div>
 				</div>
 			</div>
@@ -49,70 +55,71 @@
 	</section>
 	<section id="mobile-view" class="row">
 		<div class="col-xs-10 col-xs-offset-1">
-			<h2 class="left">Plan</h2>
-			<h2 class="right">Build</h2>
-			<h2 class="left">Optimize</h2>
-			<h2 class="right">Deploy</h2>
+			<span class="left steps">Plan</span>
+			<span class="right steps">Build</span>
+			<span class="left steps">Optimize</span>
+			<span class="right steps">Deploy</span>
 		</div>
-	</section>
-</div>	
+  </section>
 
-<!--<section class="left-home col-md-8 col-md-offset-0 col-xs-12">
-		<div class="floating-words clearfix">
-			<button (click)='descDisplay("#0")'>Performance Optimization</button>
-			<button (click)='descDisplay("#1")'>User Interface (UI)</button>
-			<button (click)='descDisplay("#2")'>Browser Compatability</button>
-			<button (click)='descDisplay("#3")'>Mobile Friendly</button>
-			<button (click)='descDisplay("#4")'>AngularJS</button>
-			<button (click)='descDisplay("#5")'>NodeJS</button>
-			<button (click)='descDisplay("#7")'>Linux</button>
-			<button (click)='descDisplay("#8")'>Red Hat</button>
-			<button (click)='descDisplay("#9")'>NGINX</button>
-			<button (click)='descDisplay("#10")'>MongoDB</button>
-			<button (click)='descDisplay("#11")'>User Experience (UX)</button>
-		</div>
-		<div class="floating-words clearfix">
-			<button (click)='descDisplay("#12")'>Cloud Hosting</button>
-			<button (click)='descDisplay("#13")'>Web Governance</button>
-			<button (click)='descDisplay("#14")'>Website Management</button>
-		</div>
-		
-		<div class="floating-words clearfix">
-			<button (click)='descDisplay("#15")'>Analytics</button>
-			<button (click)='descDisplay("#16")'>Database</button>
-		</div>
-		<div class="floating-words clearfix">
-			<button (click)='descDisplay("#17")'>SEO</button>
-		</div>
+  <section>
+    <h2>Some Things I Use</h2>
+  </section>
+
+  <section class="left-home col-md-8 col-md-offset-2 col-xs-12">
+      <div class="floating-words clearfix">
+        <button (click)='descDisplay("#0")'>Performance Optimization</button>
+        <button (click)='descDisplay("#1")'>User Interface (UI)</button>
+        <button (click)='descDisplay("#2")'>Browser Compatability</button>
+        <button (click)='descDisplay("#3")'>Mobile Friendly</button>
+        <button (click)='descDisplay("#4")'>AngularJS</button>
+        <button (click)='descDisplay("#5")'>NodeJS</button>
+        <button (click)='descDisplay("#7")'>Linux</button>
+        <button (click)='descDisplay("#8")'>Red Hat</button>
+        <button (click)='descDisplay("#9")'>NGINX</button>
+        <button (click)='descDisplay("#10")'>MongoDB</button>
+        <button (click)='descDisplay("#11")'>User Experience (UX)</button>
+      </div>
+      <div class="floating-words clearfix">
+        <button (click)='descDisplay("#12")'>Cloud Hosting</button>
+        <button (click)='descDisplay("#13")'>Web Governance</button>
+        <button (click)='descDisplay("#14")'>Website Management</button>
+      </div>
+
+      <div class="floating-words clearfix">
+        <button (click)='descDisplay("#15")'>Analytics</button>
+        <button (click)='descDisplay("#16")'>Database</button>
+      </div>
+      <div class="floating-words clearfix">
+        <button (click)='descDisplay("#17")'>SEO</button>
+      </div>
 
 
-		<div id="description-container" class="clearfix">		
-				<div id="0" class="description">Implementing techniques and/or standards to increase overall website speed for delivering content</div>
-				<div id="1" class="description">User Interface is the mechanism or mechanisms that enable the end-user to navigate, interact, and utilize the website</div>
-				<div id="2" class="description">We all use different browsers, and each browser renders content differently.  Browser compatability is a concept referrring to the cross-functionality of a website when viewed through different browsers such as chrome, internet explorer and firefox</div>
-				<div id="3" class="description">Mobile device use is growing each year, so content must now be delivered in a fashion that is focused more on rendering content for smaller screens.  Mobile friendly means a website adapts to these smaller sizes affectively</div>
-				<div id="4" class="description">AngularJS is a front-end JavaScript framework used for managing browser loaded content</div>
-				<div id="5" class="description">NodeJS is an open-source server-side programming language used to securely communicate and distribute information between the front-end browser and a web-server</div>
-				
-				<div id="7" class="description">Linux is a free and open-source operating system kernel, that has many versions, used widely by web developers because of its low cost and adaptability</div>
-				<div id="8" class="description">The specific flavor of Linux I like to currently use is Red Hat.  This is a robust, secure enterprise version of Linux, and has a lot of support</div>
-				<div id="9" class="description">NGINX is the actual software used to securely serve web pages.  I use it because it is minimalistic and adaptable</div>
-				<div id="10" class="description">MongoDB is a NoSQL database used to store, compare, and retrieve various data and corresponding content</div>
-				<div id="11" class="description">User experience is the design, flow, and presentation of the website content.  This is closely related to User Interface</div>
-				<div id="12" class="description">As opposed to managing your own server, cloud hosting allows a website owner to rent similar resources from a third party, who provide services such as networking, security, redundancy, emergency failover, and much more</div>
-				<div id="13" class="description">This term refers to establishing and maintaining policies, standards, and guidelines for web content and the managemenet thereof</div>
-				<div id="14" class="description">Website management is the actual work done to build, update, and otherwise maintain the content of a website</div>
-				<div id="15" class="description">Analytics is a term used for the act of tracking usage statistics such as page visits or number of users in order to ascertain the performance and/or success of a given goal</div>
-				<div id="16" class="description">For some websites, the database is the key element as it can contain valuable information.  Think of a database as a library, but with a speed of light mechanism for finding the books you need quickly and accurately</div>
-				<div id="17" class="description">Search Engine Optimization is the art or methodology of creating a site that is easily indexible by search engines.  This is accomplished within the code itself, but will make a website easier to find when using Google search, Bing, and others</div>
-		</div>
-	</section>-->
+      <div id="description-container" class="clearfix">
+          <div id="0" class="description">Implementing techniques and/or standards to increase overall website speed for delivering content</div>
+          <div id="1" class="description">User Interface is the mechanism or mechanisms that enable the end-user to navigate, interact, and utilize the website</div>
+          <div id="2" class="description">We all use different browsers, and each browser renders content differently.  Browser compatability is a concept referrring to the cross-functionality of a website when viewed through different browsers such as chrome, internet explorer and firefox</div>
+          <div id="3" class="description">Mobile device use is growing each year, so content must now be delivered in a fashion that is focused more on rendering content for smaller screens.  Mobile friendly means a website adapts to these smaller sizes affectively</div>
+          <div id="4" class="description">AngularJS is a front-end JavaScript framework used for managing browser loaded content</div>
+          <div id="5" class="description">NodeJS is an open-source server-side programming language used to securely communicate and distribute information between the front-end browser and a web-server</div>
 
-	<!--<section class="col-md-4 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12">
-			<h2>Blog</h2>
-			<iframe title="wordpress-blog" src="https://hastingslweb2.wordpress.com/"></iframe>
-		</aside>
-	</section>-->
+          <div id="7" class="description">Linux is a free and open-source operating system kernel, that has many versions, used widely by web developers because of its low cost and adaptability</div>
+          <div id="8" class="description">The specific flavor of Linux I like to currently use is Red Hat.  This is a robust, secure enterprise version of Linux, and has a lot of support</div>
+          <div id="9" class="description">NGINX is the actual software used to securely serve web pages.  I use it because it is minimalistic and adaptable</div>
+          <div id="10" class="description">MongoDB is a NoSQL database used to store, compare, and retrieve various data and corresponding content</div>
+          <div id="11" class="description">User experience is the design, flow, and presentation of the website content.  This is closely related to User Interface</div>
+          <div id="12" class="description">As opposed to managing your own server, cloud hosting allows a website owner to rent similar resources from a third party, who provide services such as networking, security, redundancy, emergency failover, and much more</div>
+          <div id="13" class="description">This term refers to establishing and maintaining policies, standards, and guidelines for web content and the managemenet thereof</div>
+          <div id="14" class="description">Website management is the actual work done to build, update, and otherwise maintain the content of a website</div>
+          <div id="15" class="description">Analytics is a term used for the act of tracking usage statistics such as page visits or number of users in order to ascertain the performance and/or success of a given goal</div>
+          <div id="16" class="description">For some websites, the database is the key element as it can contain valuable information.  Think of a database as a library, but with a speed of light mechanism for finding the books you need quickly and accurately</div>
+          <div id="17" class="description">Search Engine Optimization is the art or methodology of creating a site that is easily indexible by search engines.  This is accomplished within the code itself, but will make a website easier to find when using Google search, Bing, and others</div>
+      </div>
+    </section>
+
+</div>
+
+
 
 
 
