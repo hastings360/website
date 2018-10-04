@@ -13,8 +13,9 @@
 }
 #marketing-message label{
     font-size: 1.7em;
+    color: #dfdfdf;
     padding-left: 20px;
-    text-align: center;
+    text-shadow: 1px 1px 0 #000;
 }
 #marketing-message ul{
     list-style: none;
