@@ -1,5 +1,5 @@
 #new-heights-bg{
-    background: #a3a3a3 url("../../assets/imgs/pigeon-atop-skyscraper.jpeg") no-repeat 80% 80%;
+    background: #a3a3a3 url("../../assets/imgs/pigeon-atop-skyscraper.jpeg") no-repeat 80% 80%/cover;
 }
 #marketing-message{
     position: absolute;
