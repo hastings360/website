@@ -33,7 +33,7 @@ export class PortfolioComponent implements OnInit {
         imageUrl: '../../assets/imgs/lulu-portfolio.jpg',
         description:
           // tslint:disable-next-line:max-line-length
-          'An Angular.JS app for recipe sharing named after my aunt Lulu!!. On the backend, this uses MongoDB, Express.JS, Node.JS, and a NGINX web server hosted on Red Hat Linux in the AWS cloud.',
+          'An Angular app for recipe sharing named after my aunt Lulu!!. On the backend, this uses MongoDB, Express.JS, Node.JS, and a NGINX web server hosted on Red Hat Linux in the AWS cloud.',
         shapeClass: 'square',
         link: 'https://lulus-recipes.larry-hastings.com'
       },
