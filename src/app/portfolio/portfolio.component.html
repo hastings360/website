@@ -16,7 +16,7 @@
 <section id="top" class='container portfolio-container'>
     <h1>Portfolio</h1>
     <div class="row">
-        <div class="item col-md-4 col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2" *ngFor="let item of items">
+        <div class="item col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2" *ngFor="let item of items">
             <a href="{{item.link}}" class="item-link" target="_blank">
                 <img class="{{item.shapeClass}} img-responsive" src="{{item.imageUrl}}" alt="{{item.name}}" />
                 <h2>{{item.name}}</h2>
